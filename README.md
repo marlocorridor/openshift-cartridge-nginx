@@ -1,7 +1,7 @@
 # Openshift Nginx Cartridge
 Welcome to a life where [nginx](http://nginx.org/) is possible on [openshift](https://www.openshift.com/).
 
-This cartridge allow you to create a scalable nginx application, defaulting to using nginx version 1.9.12.
+This cartridge allow you to create a scalable nginx application, defaulting to using nginx version 1.10.1.
 Combine this with the [zghbssjzzhx PHP cartridge](https://github.com/zghbssjzzhx/openshift-cartridge-php) and you have a scalable application using the latest versions.
 
 Just create your app using:
@@ -10,18 +10,21 @@ rhc create-app myapp http://cartreflect-claytondev.rhcloud.com/github/zghbssjzzh
 ```
 
 If you want to install a specific nginx version you can add `?v=<version>` to the URL.
-For example to install nginx 1.8.0 you can use:
+For example to install nginx 1.8.1 you can use:
 ```BASH
-rhc create-app myapp http://cartreflect-claytondev.rhcloud.com/github/zghbssjzzhx/openshift-cartridge-nginx?v=1.8.0
+rhc create-app myapp http://cartreflect-claytondev.rhcloud.com/github/zghbssjzzhx/openshift-cartridge-nginx?v=1.8.1
 ```
 
 ## Versions
 Currently this cartridge has the following versions:
-- 1.6.2
-- 1.7.10
-- 1.8.0
-- 1.9.9
-- 1.9.12
+- 1.10.1
+- 1.8.1
+- 1.6.3
+- 1.4.7
+- 1.2.9
+- 1.0.15
+- 0.8.55
+- 0.7.69
 
 If you need another version you can compile it yourself and submit a PR to get it integrated.
 

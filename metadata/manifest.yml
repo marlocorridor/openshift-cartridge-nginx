@@ -1,9 +1,9 @@
 Name: nginx
 Cartridge-Short-Name: NGINX
 Display-Name: Nginx
-Version: "1.9.12"
-Versions: ["1.6.2", "1.7.10", "1.8.0", "1.9.9","1.9.12"]
-Website: https://github.com/boekkooi/openshift-cartridge-nginx
+Version: "1.10.1"
+Versions: ["0.7.69", "0.8.55", "1.0.15", "1.2.9", "1.4.7", "1.6.3", "1.8.1", "1.10.1"]
+Website: https://github.com/zghbssjzzhx/openshift-cartridge-nginx
 Cartridge-Version: 0.0.3
 Cartridge-Vendor: boekkooi
 Categories:
@@ -11,10 +11,14 @@ Categories:
   - service
   - nginx
 Provides:
-  - nginx-1.9
+  - nginx-1.10
   - nginx-1.8
-  - nginx-1.7
   - nginx-1.6
+  - nginx-1.4
+  - nginx-1.2
+  - nginx-1.0
+  - nginx-0.8
+  - nginx-0.7
   - nginx
 Scaling:
   Min: 1
